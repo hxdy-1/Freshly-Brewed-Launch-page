@@ -1,0 +1,36 @@
+.container {
+	padding: 2em;
+	border-radius: 1.5rem;
+	background-image: linear-gradient(
+		99deg,
+		#380d2c 0.87%,
+		#4d173e 0.88%,
+		#2b174d 97.78%
+	);
+	width: fit-content;
+
+	display: flex;
+	gap: 4rem;
+
+	margin-bottom: 2.25rem;
+}
+
+.container h4 {
+	font-size: 4rem;
+}
+
+.container p {
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.container span {
+	font-size: 4rem;
+}
+
+/* LIGHT MODE SPECIFIC STYLINGS: */
+
+/* .container {
+	background: linear-gradient(100deg, #e5b8d9 1%, #c9b8e5 100.1%);
+} */

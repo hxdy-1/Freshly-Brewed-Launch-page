@@ -1,0 +1,151 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgb(255, 255, 255);
+	background-color: #000000;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em 10em;
+}
+
+body {
+	height: 100vh;
+	background-color: #000000;
+	overflow: hidden;
+}
+
+main::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-25%, -25%);
+	filter: blur(350px);
+	border-radius: 460px;
+	background-color: #ff00b8;
+	width: 460px;
+	height: 460px;
+	/* animation: moveBlob1 20s linear infinite; */
+	animation: moveBlob1 10s linear infinite;
+}
+
+main::after {
+	content: "";
+	position: absolute;
+	top: 75%;
+	left: 85%;
+	transform: translate(-25%, -25%);
+	border-radius: 460px;
+	background-color: #772bf2;
+	filter: blur(350px);
+	width: 460px;
+	height: 460px;
+	/* animation: moveBlob2 20s linear infinite; */
+	animation: moveBlob2 10s linear infinite;
+}
+
+@keyframes moveBlob1 {
+	0% {
+		top: 0;
+		left: 0;
+	}
+	10% {
+		top: 0;
+		left: 0;
+	}
+	25% {
+		top: 0;
+		left: 85%;
+	}
+	35% {
+		top: 0;
+		left: 85%;
+	}
+	50% {
+		top: 75%;
+		left: 85%;
+	}
+	60% {
+		top: 75%;
+		left: 85%;
+	}
+	75% {
+		top: 75%;
+		left: 0;
+	}
+	85% {
+		top: 75%;
+		left: 0;
+	}
+	100% {
+		top: 0;
+		left: 0;
+	}
+}
+
+@keyframes moveBlob2 {
+	0% {
+		top: 75%;
+		left: 85%;
+	}
+	10% {
+		top: 75%;
+		left: 85%;
+	}
+	25% {
+		top: 75%;
+		left: 0;
+	}
+	35% {
+		top: 75%;
+		left: 0;
+	}
+	50% {
+		top: 0;
+		left: 0;
+	}
+	60% {
+		top: 0;
+		left: 0;
+	}
+	75% {
+		top: 0;
+		left: 85%;
+	}
+	85% {
+		top: 0;
+		left: 85%;
+	}
+	100% {
+		top: 75%;
+		left: 85%;
+	}
+}
+
+/* LIGHT MODE SPECIFIC STYLINGS: */
+
+/* body {
+	background-color: white;
+}
+
+:root {
+	color: rgb(0, 0, 0);
+} */

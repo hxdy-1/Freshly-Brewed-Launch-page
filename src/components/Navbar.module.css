@@ -1,0 +1,32 @@
+.navbar {
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar span {
+	background-color: white;
+	color: black;
+}
+
+.profile {
+	height: 3.5rem;
+	width: 3.5rem;
+	border-radius: 50%;
+	background-color: whitesmoke;
+
+	background-image: url("../assets/pfp-png.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* LIGHT MODE SPECIFIC STYLINGS: */
+
+/* .navbar span {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+} */

@@ -1,0 +1,61 @@
+.text-info {
+	margin-bottom: 1.5rem;
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+
+	position: relative;
+}
+
+.form input,
+.form button {
+	border: none;
+	border-radius: 8px;
+	/* padding: 1em 1.25em; */
+	padding: 0.2em 0.5em;
+}
+
+.form input {
+	background-color: transparent;
+	border: 1px solid white;
+	width: 60%;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.form button {
+	background-color: white;
+	color: #000000;
+	font-weight: bold;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.disabled-button {
+	cursor: not-allowed !important;
+}
+
+.form p {
+	color: #fd443a;
+	font-weight: 500;
+	position: absolute;
+
+	top: 100%;
+	left: 16%;
+}
+
+/* LIGHT MODE SPECIFIC STYLINGS: */
+
+/* .form input {
+	border: 1px solid black;
+	color: black;
+}
+
+.form button {
+	background-color: black;
+	color: white;
+} */

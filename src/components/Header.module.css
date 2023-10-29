@@ -1,0 +1,50 @@
+.header h1 {
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.header h1 span {
+	background-image: url("../assets/Dark-mode-rocket-gif.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0.7em 0.6em;
+	display: inline-block;
+	transform: translateY(15px);
+
+	animation: moveUpDown 2s linear infinite alternate;
+}
+
+.header p span {
+	font-weight: bold;
+}
+
+.header p {
+	padding: 0.5em 8em 0em;
+}
+
+.header h3 {
+	text-transform: uppercase;
+	padding: 1.5em 0;
+	letter-spacing: 5px;
+	font-size: 1.5rem;
+}
+
+@keyframes moveUpDown {
+	0% {
+		transform: translateY(15px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+/* LIGHT MODE SPECIFIC STYLING */
+
+/* .header h1 span {
+	background-image: url("../assets/Light-mode-rocket-gif.png");
+}
+
+.header h1 {
+	color: black;
+} */

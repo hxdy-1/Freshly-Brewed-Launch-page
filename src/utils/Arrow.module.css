@@ -1,0 +1,20 @@
+.arrow-container {
+	height: 4.5rem;
+	width: 4.5rem;
+	/* height: 5rem;
+	width: 5rem; */
+	border-radius: 50%;
+
+	background-color: gray;
+	background-image: url("../assets/arrow-svg.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	position: absolute;
+
+	top: 85%;
+	/* left: 90%; */
+	left: 87.5%;
+
+	cursor: pointer;
+}
